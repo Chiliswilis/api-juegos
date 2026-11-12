@@ -6,7 +6,7 @@ export default function GameDetail() {
   
   // Consumimos tu API con ?v=2 para saltar el caché
   const { data, loading, error } = useFetch(
-    'https://raw.githubusercontent.com/Chiliswilis/api-juegos/refs/heads/main/db.json?v=6'
+    'https://raw.githubusercontent.com/Chiliswilis/api-juegos/refs/heads/main/db.json?v=8'
   );
 
   if (loading) return <h2 style={{ textAlign: 'center', padding: '40px' }}>Cargando detalles...</h2>;
